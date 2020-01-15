@@ -1,0 +1,26 @@
+function: 
+func student (name: String, id: Int){
+print("My name is \(name) \n and id is \(id)")
+}
+student (name: "Abdullah al mamun", 14153103074)
+
+Switch case: 
+Switch num{
+case 1:
+print("Name1")
+case 2:
+print("Name2")
+case 3:
+print("Name3")
+default:
+print("default value")
+
+Optional:
+var myString:String!
+if myString!=nil{
+print("myString")
+}
+else{
+print("myString is nil value")
+}
+
